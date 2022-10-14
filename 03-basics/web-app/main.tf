@@ -44,7 +44,7 @@ resource "aws_instance" "instance_2" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket        = "devops-directive-web-app-data"
+  bucket        = "wc-terraform-test-s3-bucket"
   force_destroy = true
   versioning {
     enabled = true
